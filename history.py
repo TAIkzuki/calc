@@ -2,7 +2,6 @@ import collections
 
 class History:
     def __init__(self, hsize=10):
-
         self._history = collections.deque([], hsize)
 
     def push (self, item :str )->None:

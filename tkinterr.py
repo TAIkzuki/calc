@@ -1,12 +1,14 @@
 import tkinter as tk
-def say_hello():
-    print("hello")
+def say_hello(text):
+    index= int (3)
+    print(index)
+    print(type(index))
+    return index
 
 def counter():
     global count
     count+=1
-    btn3['text']=f
-count = 0
+    btn3['text']=fcount = 0
 win = tk.Tk()
 win.title('calculate')
 #photo = tk.PhotoImage(file='tt.png')
