@@ -88,11 +88,8 @@ class DemoExprEvaluator:
                 break
         r.result_string = self.eval_expr_without_parens(r.result_string)
         print("The result is:", r.result_string)
+        return r.result_string
 
 
-if __name__ == "__main__":
-    e = DemoExprEvaluator()
-    expr = "13^2+17*(3+7*2)"
-    print('eval() function: ',eval(expr))
-    e.calculate(expr)
+
 
