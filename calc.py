@@ -93,6 +93,6 @@ class DemoExprEvaluator:
 if __name__ == "__main__":
     e = DemoExprEvaluator()
     expr = "13^2+17*(3+7*2)"
-    print('eval function: ',eval(expr))
+    print('eval() function: ',eval(expr))
     e.calculate(expr)
 
